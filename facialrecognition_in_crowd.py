@@ -6,10 +6,15 @@
 #
 # Only finds out if the face and eyes are present in the page.
 # Does not detect the faces yet !
+# The Video is from Youtube.
 #
+#
+#
+
 
 import cv2
 cam = cv2.VideoCapture('TimesSquare.mp4')
+cam = cv2.VideoCapture('CrowdAtTrumpRally.mp4')
 face_detector=cv2.CascadeClassifier('/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 if (face_detector.empty() ) :
 	print ("The face classifier is empty, Breaking out ")
