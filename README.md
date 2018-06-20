@@ -1,4 +1,4 @@
-# Face Recognition in a Crowd, using OpenCV ( Computer Vision ) using Python Programming Language
+# Face Recognition in a Crowd, using OpenCV ( Computer Vision ) and Python Programming Language
 
 This blog lets you recognize faces in a crowd from a video.
 
