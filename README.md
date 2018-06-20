@@ -7,6 +7,7 @@ Uses the Haar Classifier Python engine to recognize the faces.
 
 
 To run the program :
+
 	python3 facialrecognition_in_crowd.py  
 
 This will read the video of CrowdatTrumpRally.mp4 - play it and identify the faces.
